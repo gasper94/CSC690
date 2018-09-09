@@ -25,7 +25,6 @@ class SpyAppViewController:
     }
     
     @IBAction func print(_ sender: UIButton) {
-        //output.text = input.text!
         let plaintext = input.text!
         let secret = self.secret.text!
         output.text = cipher.decrypt(plaintext, secret: secret)

@@ -10,6 +10,7 @@ import Foundation
 struct CipherFactory{
     
     private var cipher: [String: Cipher] = [
+        "Alphanumeric": AlphanumericCaesarCipher(),
         "cesar": CaesarCipher()
     ]
     

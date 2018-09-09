@@ -14,7 +14,6 @@
 		9C08E1A3213B1CF00076DBE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C08E1A1213B1CF00076DBE8 /* LaunchScreen.storyboard */; };
 		9C08E1AE213B1CF00076DBE8 /* SpyAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C08E1AD213B1CF00076DBE8 /* SpyAppTests.swift */; };
 		9C08E1BB213B3A6A0076DBE8 /* CipherFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C08E1BA213B3A6A0076DBE8 /* CipherFactory.swift */; };
-		9C08E1BD213B45080076DBE8 /* CeaserCipherDecode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C08E1BC213B45080076DBE8 /* CeaserCipherDecode.swift */; };
 		9C1952AA213F1C710013921D /* AlphanumericCeaserCipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1952A9213F1C710013921D /* AlphanumericCeaserCipher.swift */; };
 		9C1952AC213F1F900013921D /* CaesarCipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1952AB213F1F900013921D /* CaesarCipher.swift */; };
 /* End PBXBuildFile section */
@@ -41,7 +40,6 @@
 		9C08E1AD213B1CF00076DBE8 /* SpyAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpyAppTests.swift; sourceTree = "<group>"; };
 		9C08E1AF213B1CF00076DBE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C08E1BA213B3A6A0076DBE8 /* CipherFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CipherFactory.swift; sourceTree = "<group>"; };
-		9C08E1BC213B45080076DBE8 /* CeaserCipherDecode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeaserCipherDecode.swift; sourceTree = "<group>"; };
 		9C1952A9213F1C710013921D /* AlphanumericCeaserCipher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphanumericCeaserCipher.swift; sourceTree = "<group>"; };
 		9C1952AB213F1F900013921D /* CaesarCipher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaesarCipher.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,7 +87,6 @@
 				9C08E19A213B1CEF0076DBE8 /* SpyAppViewController.swift */,
 				9C1952A9213F1C710013921D /* AlphanumericCeaserCipher.swift */,
 				9C1952AB213F1F900013921D /* CaesarCipher.swift */,
-				9C08E1BC213B45080076DBE8 /* CeaserCipherDecode.swift */,
 				9C08E1BA213B3A6A0076DBE8 /* CipherFactory.swift */,
 				9C08E19C213B1CEF0076DBE8 /* Main.storyboard */,
 				9C08E19F213B1CF00076DBE8 /* Assets.xcassets */,
@@ -209,7 +206,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C08E1BD213B45080076DBE8 /* CeaserCipherDecode.swift in Sources */,
 				9C08E1BB213B3A6A0076DBE8 /* CipherFactory.swift in Sources */,
 				9C08E19B213B1CEF0076DBE8 /* SpyAppViewController.swift in Sources */,
 				9C1952AA213F1C710013921D /* AlphanumericCeaserCipher.swift in Sources */,

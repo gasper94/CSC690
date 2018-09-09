@@ -8,9 +8,41 @@
 
 import Foundation
 
-//protocol Cipher{
-  //  func encode(_ plaintext: String, secret: String) -> String
-    //func decrypt(_ plaintext: String, secret: String) -> String
-//}
+struct AlphanumericCaesarCipher: Cipher {
+    
+    func encode(_ plaintext: String,secret: String) -> String{
+        
+        var encoded  = ""
+        let shitfBy = UInt32(secret)!
+        //var Alphanumeric: [String] = ["a","b", "c"]
+        
+        for character in plaintext{
+            
+            let unicode = character.unicodeScalars.first!.value
+            let shiftedUnicode = unicode + shitfBy
+            let shiftedCharacter = String(UnicodeScalar(UInt8(shiftedUnicode)))
+            encoded = encoded + shiftedCharacter
+        }
+        
+        return encoded
+    }
+    
+    func decrypt(_ plaintext: String, secret: String) -> String {
+        var encoded  = ""
+        let shitfBy = UInt32(secret)!
+        
+        for character in plaintext{
+            let unicode = character.unicodeScalars.first!.value
+            let shiftedUnicode = unicode - shitfBy
+            let shiftedCharacter = String(UnicodeScalar(UInt8(shiftedUnicode)))
+            encoded = encoded + shiftedCharacter
+        }
+        
+        return encoded
+    }
+    
+    
+}
+
 
 
